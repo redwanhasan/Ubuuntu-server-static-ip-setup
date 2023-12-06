@@ -1,0 +1,6 @@
+# This is the network config written by 'subiquity'(default netplan yaml file for dhcp on ubuntu 22.04)
+network:
+  ethernets:
+    enp37s0:
+      dhcp4: true
+  version: 2
