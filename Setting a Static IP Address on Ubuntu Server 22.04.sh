@@ -20,12 +20,12 @@ network:
           via: 192.168.1.1
   version: 2
 
-/*
-    eth0: is the name of my network interface - yours may differ.
-    Under addresses: is the static IP to set, you’ll need to use CIDR notation, so /24 is 255.255.255.0.
-    DNS servers are configured under nameservers: multiple servers should be command separated.
-    The default gateway is set under routes: and - to: default.
-*/
+
+#   eth0: is the name of my network interface - yours may differ.
+#   Under addresses: is the static IP to set, you’ll need to use CIDR notation, so /24 is 255.255.255.0.
+#   DNS servers are configured under nameservers: multiple servers should be command separated.
+#   The default gateway is set under routes: and - to: default.
+
 
 #To apply the changes run the following command:
 sudo netplan apply
