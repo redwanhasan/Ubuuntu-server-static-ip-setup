@@ -1,2 +1,1 @@
-# GNU-Linux-Commands
-All the GNU/Linux Commands for Ubuntu Server
+Ubuuntu-server-static-ip-setup
